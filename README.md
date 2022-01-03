@@ -1,8 +1,7 @@
-# Api Server Example
+# Api Server Example (without Schema Validation)
 with:
 - Node.js and Express.js
 - MongoDb and Mongoose.js
-- Joi Schema Validation
 - Environment Variables
 
 You can send api requests from Postman.
@@ -17,7 +16,6 @@ then add these packages to `package.json`:
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "joi": "^17.4.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.8"
   },
